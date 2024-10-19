@@ -64,7 +64,7 @@ export default function DoctorDashboard() {
                   onClick={() => setActiveTab('cervicalCancer')}
                   startContent={<FileText size={20}/>}
               >
-                Cervical Cancer Forms
+                Patient Cancer Forms
               </Button>
               <Button
                   color={activeTab === 'profile' ? 'primary' : 'default'}
@@ -111,7 +111,7 @@ function AppointmentsTable({appointments}: { appointments: Appointment[] }) {
 
 function CervicalCancerFormsTable({forms}: { forms: CervicalCancerForm[] }) {
   return (
-      <Table aria-label="Cervical Cancer Forms table">
+      <Table aria-label="Patient Cancer Forms table">
         <TableHeader>
           <TableColumn>PATIENT NAME</TableColumn>
           <TableColumn>SUBMISSION DATE</TableColumn>

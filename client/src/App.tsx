@@ -8,6 +8,8 @@ import SignupPage from "@/pages/signup-page.tsx";
 import DoctorDashboard from "@/pages/doctor-dashboard.tsx";
 import PatientDashboard from "@/pages/patient-dashboard.tsx";
 import LandingPage from "@/pages/landing.tsx";
+import FAQPage from "@/pages/faq.tsx";
+import StoriesPage from "@/pages/stories.tsx";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route element={<DoctorDashboard/>} path="/dashboard/doctor"/>
         <Route element={<PatientDashboard/>} path="/dashboard/patient"/>
         <Route element={<LandingPage/>} path="/landing"/>
+        <Route element={<FAQPage/>} path="/faq"/>
+        <Route element={<StoriesPage/>} path="/stories"/>
       </Routes>
   );
 }

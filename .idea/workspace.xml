@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0e88a3b-d564-4489-b061-280246b40130" name="Changes" comment="feature(frontend): add doctor dashboard, patient dashboard, landing page">
+    <list default="true" id="b0e88a3b-d564-4489-b061-280246b40130" name="Changes" comment="chore(frontend): reformat with prettier">
+      <change afterPath="$PROJECT_DIR$/client/src/pages/faq.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/vite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/icons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/icons.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/primitives.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/primitives.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/theme-switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/theme-switch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/use-theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/use-theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/provider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.node.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.node.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/vercel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/doctor-dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/doctor-dashboard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729352924242</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="chore(frontend): reformat with prettier">
+      <option name="closed" value="true" />
+      <created>1729354356616</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729354356617</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +231,8 @@
     <MESSAGE value="chore(setup): add microservice arch&#10;- move client code to java server&#10;- move model to flask server" />
     <MESSAGE value="feature(frontend): add login, signup page" />
     <MESSAGE value="feature(frontend): add doctor dashboard, patient dashboard, landing page" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature(frontend): add doctor dashboard, patient dashboard, landing page" />
+    <MESSAGE value="chore(frontend): reformat with prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(frontend): reformat with prettier" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
