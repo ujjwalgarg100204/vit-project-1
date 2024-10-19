@@ -5,6 +5,7 @@ import {Button} from "@nextui-org/button";
 import {Card, CardBody, CardHeader} from '@nextui-org/card'
 import {PlusCircle} from 'lucide-react'
 import {Link} from "@nextui-org/link";
+import Footer from "@/components/footer.tsx";
 
 // Mock data for initial stories
 const initialStories = [
@@ -110,12 +111,7 @@ export default function StoriesPage() {
             </ModalContent>
           </Modal>
         </main>
-
-        <footer className="bg-gray-800 text-white py-8 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <p>© {new Date().getFullYear()} CervicalCare. All rights reserved.</p>
-          </div>
-        </footer>
+        <Footer/>
       </div>
   )
 }

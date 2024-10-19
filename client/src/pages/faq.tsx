@@ -5,6 +5,7 @@ import {Modal, ModalBody, ModalContent, ModalFooter, ModalHeader} from "@nextui-
 import {Card, CardBody} from '@nextui-org/card'
 import {ChevronDown, ChevronUp, PlusCircle} from 'lucide-react'
 import {Link} from "@nextui-org/link";
+import Footer from "@/components/footer.tsx";
 
 // Mock data for initial FAQs
 const initialFaqs = [
@@ -115,11 +116,7 @@ export default function FAQPage() {
           </Modal>
         </main>
 
-        <footer className="bg-gray-800 text-white py-8 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <p>© {new Date().getFullYear()} CervicalCare. All rights reserved.</p>
-          </div>
-        </footer>
+        <Footer/>
       </div>
   )
 }
