@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0e88a3b-d564-4489-b061-280246b40130" name="Changes" comment="chore(setup): add microservice arch&#10;- move client code to java server&#10;- move model to flask server">
-      <change afterPath="$PROJECT_DIR$/client/src/components/auth-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/login-page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/signup-page.tsx" afterDir="false" />
+    <list default="true" id="b0e88a3b-d564-4489-b061-280246b40130" name="Changes" comment="feature(frontend): add login, signup page">
+      <change afterPath="$PROJECT_DIR$/client/src/pages/doctor-dashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/landing.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/patient-dashboard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pnpm-lock.yaml" afterDir="false" />
@@ -65,23 +65,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Flask server.project-1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/ujjwalgarg/Development/web/python/project-1/client/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flask server.project-1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "review-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "/home/ujjwalgarg/Development/web/python/project-1/client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="project-1" type="Python.FlaskServer">
       <module name="project-1" />
@@ -192,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729348304138</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feature(frontend): add login, signup page">
+      <option name="closed" value="true" />
+      <created>1729350040739</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729350040739</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +216,8 @@
     <MESSAGE value="chore(setup): add environment.yml file" />
     <MESSAGE value="chore(setup): add enviornment.yml file&#10;&#10;Signed-off-by: Ujjwal Garg &lt;ujjwalgarg100204@gmail.com&gt;" />
     <MESSAGE value="chore(setup): add microservice arch&#10;- move client code to java server&#10;- move model to flask server" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(setup): add microservice arch&#10;- move client code to java server&#10;- move model to flask server" />
+    <MESSAGE value="feature(frontend): add login, signup page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature(frontend): add login, signup page" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
